@@ -11,11 +11,13 @@
 #    ARCHDIR shoud take the value of the version *being replaced*,
 #    that is, the version just prior to the one being created.
 # 2. Change version number in `pynance/doc/source/conf.py`
-# 3. Build new documentation:
+# 3. Make sure index.rst#Prior_Versions includes a link to the 
+#    version being archived.
+# 4. Build new documentation:
 #    $ make html
-# 4. Write new documentation to public directory:
+# 5. Write new documentation to public directory:
 #    $ make pubhtml
-# 5. Commit change.
+# 6. Commit change.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
