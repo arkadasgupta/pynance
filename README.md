@@ -1,8 +1,9 @@
 PyNance
 ===
 Lightweight Python library for assembling and analysing
-financial data. Wraps Pandas and matplotlib for maximum
-ease of use in accomplishing routine tasks in working with financial data.
+financial data. Wraps `pandas` and `matplotlib` for maximum
+ease of use. Included are tools for generating features
+and labels for machine learning algorithms.
 
 Documentation
 ---
